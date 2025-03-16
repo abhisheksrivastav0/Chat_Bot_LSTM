@@ -1,3 +1,5 @@
+dataset - https://www.kaggle.com/datasets/kausr25/chatterbotenglish
+
 Objective: The project implements a chatbot using a sequence-to-sequence encoder-decoder architecture with LSTM layers. It can process input questions and generate meaningful responses.
 
 Data Handling: Conversational data is stored in YAML files, and the Tokenize class handles data preprocessing—tokenizing questions and answers, cleaning invalid entries, and adding special tags (<start> and <end>).
@@ -17,4 +19,4 @@ Interactive Chat: The chatbot interface allows users to input questions via the 
 Scalability: The architecture is modular, allowing for easy integration of new data, modification of hyperparameters, or switching to more advanced models.
 
 Practical Applications: This chatbot can be extended for various real-world applications like customer support, personal assistants, or educational tools by training it on domain-specific data.
-dataset - https://www.kaggle.com/datasets/kausr25/chatterbotenglish
+
